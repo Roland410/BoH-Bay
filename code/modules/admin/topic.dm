@@ -1314,7 +1314,7 @@
 		var/mob/observer/ghost/G = C.mob
 		if(istype(G))
 			sleep(2)
-			G.ManualFollow(M)
+			G.start_following(M)
 
 	else if(href_list["check_antagonist"])
 		check_antagonists()
