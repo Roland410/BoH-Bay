@@ -340,11 +340,11 @@
 /turf/simulated/floor/airless/ceiling,
 /area/slavers_base/cells)
 "bk" = (
-/obj/machinery/door/window/brigdoor/southright,
+/obj/machinery/door/window/secure/southright,
 /turf/simulated/floor/airless/ceiling,
 /area/slavers_base/cells)
 "bl" = (
-/obj/machinery/door/window/brigdoor/southright,
+/obj/machinery/door/window/secure/southright,
 /obj/random/trash,
 /turf/simulated/floor/airless/ceiling,
 /area/slavers_base/cells)
@@ -571,7 +571,7 @@
 /turf/simulated/floor/airless/ceiling,
 /area/slavers_base/cells)
 "bH" = (
-/obj/machinery/door/window/brigdoor/northright,
+/obj/machinery/door/window/secure/northright,
 /turf/simulated/floor/airless/ceiling,
 /area/slavers_base/cells)
 "bI" = (
@@ -1071,7 +1071,7 @@
 /turf/simulated/floor/tiled/airless,
 /area/slavers_base/cells)
 "cB" = (
-/obj/machinery/door/window/brigdoor/northright,
+/obj/machinery/door/window/secure/northright,
 /obj/item/weapon/reagent_containers/glass/rag,
 /turf/simulated/floor/airless/ceiling,
 /area/slavers_base/cells)

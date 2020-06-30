@@ -4549,7 +4549,7 @@
 /turf/simulated/floor/ascent,
 /area/ship/ascent/fore_starboard_prow)
 "wd" = (
-/obj/machinery/door/window/brigdoor{
+/obj/machinery/door/window/secure{
 	color = "PURPLE";
 	dir = 4
 	},

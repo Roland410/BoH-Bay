@@ -1988,7 +1988,7 @@
 /obj/structure/window/reinforced{
 	dir = 8
 	},
-/obj/machinery/door/window/brigdoor/westright{
+/obj/machinery/door/window/secure/westright{
 	autoset_access = 0;
 	dir = 4;
 	name = "CMO's suit storage";
@@ -2223,7 +2223,7 @@
 /obj/item/weapon/rcd_ammo,
 /obj/item/weapon/rcd_ammo,
 /obj/item/weapon/rcd_ammo,
-/obj/machinery/door/window/brigdoor/eastleft{
+/obj/machinery/door/window/secure/eastleft{
 	name = "CE's Equipment Storage"
 	},
 /obj/structure/window/reinforced{
@@ -2643,7 +2643,7 @@
 /obj/effect/floor_decal/corner/blue/mono,
 /obj/machinery/door/firedoor,
 /obj/item/weapon/material/bell,
-/obj/machinery/door/window/brigdoor/eastright{
+/obj/machinery/door/window/secure/eastright{
 	dir = 8;
 	name = "Executive Officer's Desk"
 	},
@@ -3438,7 +3438,7 @@
 "fH" = (
 /obj/structure/table/rack,
 /obj/structure/window/reinforced,
-/obj/machinery/door/window/brigdoor/westright{
+/obj/machinery/door/window/secure/westright{
 	dir = 8;
 	name = "CE's Equipment Storage"
 	},
@@ -4087,7 +4087,7 @@
 /obj/structure/window/reinforced{
 	dir = 8
 	},
-/obj/machinery/door/window/brigdoor/westright{
+/obj/machinery/door/window/secure/westright{
 	autoset_access = 0;
 	dir = 4;
 	name = "CoS' suit storage";
@@ -4730,7 +4730,7 @@
 	dir = 8
 	},
 /obj/item/weapon/tank/emergency/oxygen/double,
-/obj/machinery/door/window/brigdoor/westright{
+/obj/machinery/door/window/secure/westright{
 	autoset_access = 0;
 	dir = 4;
 	name = "CSO's suit storage";
@@ -14292,7 +14292,7 @@
 	name = "Bridge Deck Checkpoint Shutters";
 	opacity = 0
 	},
-/obj/machinery/door/window/brigdoor/northleft{
+/obj/machinery/door/window/secure/northleft{
 	dir = 8;
 	name = "Security Checkpoint"
 	},
@@ -15163,7 +15163,7 @@
 	},
 /obj/item/weapon/tank/emergency/oxygen/double,
 /obj/item/weapon/rig/command/xo/equipped,
-/obj/machinery/door/window/brigdoor/westright{
+/obj/machinery/door/window/secure/westright{
 	autoset_access = 0;
 	dir = 8;
 	name = "XO's suit storage";
@@ -18439,7 +18439,7 @@
 /obj/structure/window/reinforced{
 	dir = 4
 	},
-/obj/machinery/door/window/brigdoor/westright{
+/obj/machinery/door/window/secure/westright{
 	autoset_access = 0;
 	dir = 8;
 	name = "CO's suit storage";

@@ -210,7 +210,7 @@ obj/structure/windoor_assembly/Destroy()
 
 					var/obj/machinery/door/window/windoor
 					if(secure)
-						windoor = new /obj/machinery/door/window/brigdoor(loc, src)
+						windoor = new /obj/machinery/door/window/secure(loc, src)
 						if(facing == "l")
 							windoor.icon_state = "leftsecureopen"
 							windoor.base_state = "leftsecure"

@@ -2226,8 +2226,8 @@
 /area/casino/casino_security)
 "fu" = (
 /obj/structure/table/steel_reinforced,
-/obj/machinery/door/window/brigdoor/eastleft,
-/obj/machinery/door/window/brigdoor/westleft,
+/obj/machinery/door/window/secure/eastleft,
+/obj/machinery/door/window/secure/westleft,
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
@@ -3497,7 +3497,7 @@
 /turf/simulated/floor/tiled/freezer,
 /area/casino/casino_kitchen)
 "iO" = (
-/obj/machinery/door/window/brigdoor/eastleft,
+/obj/machinery/door/window/secure/eastleft,
 /turf/simulated/floor/tiled/freezer,
 /area/casino/casino_kitchen)
 "iP" = (

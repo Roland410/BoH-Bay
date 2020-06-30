@@ -2410,7 +2410,7 @@
 "fy" = (
 /obj/structure/table/rack/dark,
 /obj/structure/window/phoronreinforced,
-/obj/machinery/door/window/brigdoor{
+/obj/machinery/door/window/secure{
 	color = "PURPLE";
 	dir = 4;
 	name = "trophy case"
@@ -2422,7 +2422,7 @@
 /obj/structure/window/phoronreinforced{
 	dir = 1
 	},
-/obj/machinery/door/window/brigdoor{
+/obj/machinery/door/window/secure{
 	color = "PURPLE";
 	dir = 4;
 	name = "trophy case"

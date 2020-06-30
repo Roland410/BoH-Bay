@@ -1035,7 +1035,7 @@
 /obj/item/ammo_magazine/mil_rifle/sec,
 /obj/item/ammo_magazine/mil_rifle/sec,
 /obj/item/ammo_magazine/mil_rifle/sec,
-/obj/machinery/door/window/brigdoor/westright{
+/obj/machinery/door/window/secure/westright{
 	autoset_access = 1;
 	dir = 4;
 	name = "Rifles";
@@ -1485,7 +1485,7 @@
 /obj/machinery/door/firedoor,
 /obj/structure/table/steel_reinforced,
 /obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/machinery/door/window/brigdoor/eastleft{
+/obj/machinery/door/window/secure/eastleft{
 	name = "Emergency Armory Desk"
 	},
 /obj/machinery/door/blast/regular/open{
@@ -4648,7 +4648,7 @@
 /turf/simulated/floor/plating,
 /area/maintenance/firstdeck/centralstarboard)
 "aib" = (
-/obj/machinery/door/window/brigdoor/eastleft{
+/obj/machinery/door/window/secure/eastleft{
 	dir = 2;
 	id = "Cell 2";
 	name = "Cell Two"
@@ -9827,7 +9827,7 @@
 "aqV" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/door/window/brigdoor/eastleft{
+/obj/machinery/door/window/secure/eastleft{
 	dir = 1;
 	id = "Cell 3";
 	name = "Cell Three"
@@ -9847,7 +9847,7 @@
 "aqW" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/door/window/brigdoor/eastleft{
+/obj/machinery/door/window/secure/eastleft{
 	dir = 1;
 	id = "Cell 4";
 	name = "Cell Four"
@@ -9885,7 +9885,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/door/window/brigdoor/eastleft{
+/obj/machinery/door/window/secure/eastleft{
 	dir = 1;
 	id = "Cell 5";
 	name = "Cell Five"
@@ -9913,7 +9913,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/door/window/brigdoor/eastleft{
+/obj/machinery/door/window/secure/eastleft{
 	dir = 1;
 	id = "Cell 6";
 	name = "Cell Six"
@@ -13653,7 +13653,7 @@
 "aDI" = (
 /obj/structure/table/steel_reinforced,
 /obj/machinery/door/firedoor,
-/obj/machinery/door/window/brigdoor/westright{
+/obj/machinery/door/window/secure/westright{
 	dir = 2;
 	name = "Brig Chief Desk"
 	},
@@ -21819,7 +21819,7 @@
 	dir = 4;
 	name = "Security Checkpoint"
 	},
-/obj/machinery/door/window/brigdoor/northleft{
+/obj/machinery/door/window/secure/northleft{
 	dir = 8;
 	name = "Security Checkpoint"
 	},
@@ -26407,7 +26407,7 @@
 /turf/simulated/floor/carpet,
 /area/medical/counselor)
 "oMb" = (
-/obj/machinery/door/window/brigdoor/eastleft{
+/obj/machinery/door/window/secure/eastleft{
 	dir = 2;
 	id = "Cell 1";
 	name = "Cell One"
@@ -28135,7 +28135,7 @@
 "riC" = (
 /obj/structure/table/steel_reinforced,
 /obj/machinery/door/firedoor,
-/obj/machinery/door/window/brigdoor/westright{
+/obj/machinery/door/window/secure/westright{
 	name = "Brig Chief Desk"
 	},
 /obj/item/weapon/material/bell,
@@ -28147,10 +28147,10 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/security/bo)
 "rjb" = (
-/obj/machinery/door/window/brigdoor/northright{
+/obj/machinery/door/window/secure/northright{
 	name = "Test Chamber"
 	},
-/obj/machinery/door/window/brigdoor/southright{
+/obj/machinery/door/window/secure/southright{
 	name = "Test Chamber"
 	},
 /obj/machinery/door/blast/regular{
@@ -29741,7 +29741,7 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
-/obj/machinery/door/window/brigdoor/westright{
+/obj/machinery/door/window/secure/westright{
 	dir = 1;
 	name = "Brig Chief Desk"
 	},

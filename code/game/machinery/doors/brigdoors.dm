@@ -36,7 +36,7 @@
 	return INITIALIZE_HINT_LATELOAD
 
 /obj/machinery/door_timer/LateInitialize()
-	for(var/obj/machinery/door/window/brigdoor/M in SSmachines.machinery)
+	for(var/obj/machinery/door/window/secure/M in SSmachines.machinery)
 		if (M.id == src.id)
 			targets += M
 
@@ -92,7 +92,7 @@
 	//set timing
 	timing = 1
 
-	for(var/obj/machinery/door/window/brigdoor/door in targets)
+	for(var/obj/machinery/door/window/secure/door in targets)
 		if(door.density)	continue
 		spawn(0)
 			door.close()
@@ -118,7 +118,7 @@
 	if (broadcast_to_huds)
 		broadcast_security_hud_message("The timer for [id] has expired.", src)
 
-	for(var/obj/machinery/door/window/brigdoor/door in targets)
+	for(var/obj/machinery/door/window/secure/door in targets)
 		if(!door.density)	continue
 		spawn(0)
 			door.open()

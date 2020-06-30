@@ -4088,7 +4088,7 @@
 /area/map_template/rescue_base/base)
 "ig" = (
 /obj/machinery/telecomms/allinone,
-/obj/machinery/door/window/brigdoor/westright{
+/obj/machinery/door/window/secure/westright{
 	autoset_access = 0;
 	dir = 8;
 	name = "TCOMMS Unit";

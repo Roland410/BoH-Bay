@@ -1616,7 +1616,7 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/machinery/door/window/brigdoor/southleft{
+/obj/machinery/door/window/secure/southleft{
 	dir = 8;
 	name = "suit storage"
 	},
@@ -1722,7 +1722,7 @@
 	opacity = 0
 	},
 /obj/structure/table/steel_reinforced,
-/obj/machinery/door/window/brigdoor/eastleft{
+/obj/machinery/door/window/secure/eastleft{
 	name = "Checkpoint Desk"
 	},
 /obj/structure/cable/green{
@@ -3340,7 +3340,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/machinery/door/window/brigdoor/eastleft{
+/obj/machinery/door/window/secure/eastleft{
 	name = "Bar";
 	req_access = list("ACCESS_BAR")
 	},
@@ -15953,7 +15953,7 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/command/captainmess)
 "GJ" = (
-/obj/machinery/door/window/brigdoor/westleft,
+/obj/machinery/door/window/secure/westleft,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},

@@ -6,7 +6,7 @@
 	var/base_state = "left"
 	min_force = 4
 	hitsound = 'sound/effects/Glasshit.ogg'
-	maxhealth = 150 //If you change this, consiter changing ../door/window/brigdoor/ health at the bottom of this .dm file
+	maxhealth = 150 //If you change this, consiter changing ../door/window/secure/ health at the bottom of this .dm file
 	health = 150
 	visible = 0.0
 	use_power = POWER_USE_OFF
@@ -200,7 +200,7 @@
 			to_chat(user, "<span class='notice'>You removed the windoor electronics!</span>")
 
 			var/obj/structure/windoor_assembly/wa = new/obj/structure/windoor_assembly(src.loc)
-			if (istype(src, /obj/machinery/door/window/brigdoor))
+			if (istype(src, /obj/machinery/door/window/secure))
 				wa.secure = "secure_"
 				wa.SetName("Secure Wired Windoor Assembly")
 			else
@@ -249,14 +249,12 @@
 	electronics = ..()
 	return electronics	
 
-/obj/machinery/door/window/brigdoor
+/obj/machinery/door/window/secure
 	name = "secure door"
 	icon = 'icons/obj/doors/windoor.dmi'
 	icon_state = "leftsecure"
 	base_state = "leftsecure"
 	var/id = null
-	autoset_access = 0
-	req_access = list(access_brig)
 	maxhealth = 300
 	health = 300.0 //Stronger doors for prison (regular window door health is 150)
 	pry_mod = 0.65
@@ -294,34 +292,34 @@
 	icon_state = "right"
 	base_state = "right"
 
-/obj/machinery/door/window/brigdoor/northleft
+/obj/machinery/door/window/secure/northleft
 	dir = NORTH
 
-/obj/machinery/door/window/brigdoor/eastleft
+/obj/machinery/door/window/secure/eastleft
 	dir = EAST
 
-/obj/machinery/door/window/brigdoor/westleft
+/obj/machinery/door/window/secure/westleft
 	dir = WEST
 
-/obj/machinery/door/window/brigdoor/southleft
+/obj/machinery/door/window/secure/southleft
 	dir = SOUTH
 
-/obj/machinery/door/window/brigdoor/northright
+/obj/machinery/door/window/secure/northright
 	dir = NORTH
 	icon_state = "rightsecure"
 	base_state = "rightsecure"
 
-/obj/machinery/door/window/brigdoor/eastright
+/obj/machinery/door/window/secure/eastright
 	dir = EAST
 	icon_state = "rightsecure"
 	base_state = "rightsecure"
 
-/obj/machinery/door/window/brigdoor/westright
+/obj/machinery/door/window/secure/westright
 	dir = WEST
 	icon_state = "rightsecure"
 	base_state = "rightsecure"
 
-/obj/machinery/door/window/brigdoor/southright
+/obj/machinery/door/window/secure/southright
 	dir = SOUTH
 	icon_state = "rightsecure"
 	base_state = "rightsecure"

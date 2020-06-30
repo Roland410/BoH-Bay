@@ -44,7 +44,7 @@
 /obj/structure/window/reinforced{
 	dir = 4
 	},
-/obj/machinery/door/window/brigdoor/westright{
+/obj/machinery/door/window/secure/westright{
 	dir = 2;
 	name = "suit storage"
 	},
@@ -16197,11 +16197,11 @@
 "Ni" = (
 /obj/machinery/door/firedoor,
 /obj/structure/table/steel,
-/obj/machinery/door/window/brigdoor/eastleft{
+/obj/machinery/door/window/secure/eastleft{
 	dir = 2;
 	name = "Petrov Security Desk"
 	},
-/obj/machinery/door/window/brigdoor/westright{
+/obj/machinery/door/window/secure/westright{
 	dir = 1;
 	name = "Petrov Security Desk"
 	},

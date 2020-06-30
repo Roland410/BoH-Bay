@@ -220,7 +220,7 @@
 /obj/structure/window/reinforced{
 	dir = 4
 	},
-/obj/machinery/door/window/brigdoor/northleft{
+/obj/machinery/door/window/secure/northleft{
 	name = "emergency core eject"
 	},
 /obj/machinery/button/blast_door{
@@ -428,7 +428,7 @@
 	},
 /obj/structure/table/rack,
 /obj/item/weapon/rig/medical/equipped,
-/obj/machinery/door/window/brigdoor/southleft{
+/obj/machinery/door/window/secure/southleft{
 	name = "suit storage"
 	},
 /turf/simulated/floor/tiled/techfloor,
@@ -8567,7 +8567,7 @@
 	opacity = 0
 	},
 /obj/machinery/door/firedoor,
-/obj/machinery/door/window/brigdoor/southleft{
+/obj/machinery/door/window/secure/southleft{
 	dir = 4;
 	name = "Monitoring Desk"
 	},
@@ -9438,7 +9438,7 @@
 /turf/simulated/floor/tiled,
 /area/engineering/engine_monitoring)
 "sj" = (
-/obj/machinery/door/window/brigdoor/northleft{
+/obj/machinery/door/window/secure/northleft{
 	name = "Weapons locker"
 	},
 /obj/structure/window/reinforced{
@@ -9485,7 +9485,7 @@
 /obj/structure/table/rack{
 	dir = 8
 	},
-/obj/machinery/door/window/brigdoor/northleft{
+/obj/machinery/door/window/secure/northleft{
 	name = "Weapons locker"
 	},
 /obj/structure/window/reinforced,
@@ -9510,7 +9510,7 @@
 	dir = 8
 	},
 /obj/structure/window/reinforced,
-/obj/machinery/door/window/brigdoor/northleft{
+/obj/machinery/door/window/secure/northleft{
 	name = "Weapons locker"
 	},
 /obj/structure/window/reinforced{
@@ -9683,7 +9683,7 @@
 	dir = 8;
 	health = 1e+006
 	},
-/obj/machinery/door/window/brigdoor/northleft{
+/obj/machinery/door/window/secure/northleft{
 	name = "Weapons locker"
 	},
 /obj/effect/floor_decal/industrial/outline/red,
@@ -9695,7 +9695,7 @@
 	dir = 8
 	},
 /obj/structure/window/reinforced,
-/obj/machinery/door/window/brigdoor/northleft{
+/obj/machinery/door/window/secure/northleft{
 	name = "Weapons locker"
 	},
 /obj/effect/floor_decal/industrial/outline/red,
@@ -13230,7 +13230,7 @@
 "BQ" = (
 /obj/structure/table/steel_reinforced,
 /obj/machinery/door/firedoor,
-/obj/machinery/door/window/brigdoor/eastleft{
+/obj/machinery/door/window/secure/eastleft{
 	name = "Requisitions"
 	},
 /obj/random/maintenance/solgov,
@@ -18455,7 +18455,7 @@
 /obj/structure/window/reinforced{
 	dir = 4
 	},
-/obj/machinery/door/window/brigdoor/northleft{
+/obj/machinery/door/window/secure/northleft{
 	name = "Weapons locker"
 	},
 /obj/effect/floor_decal/industrial/outline/red,
@@ -20290,7 +20290,7 @@
 	dir = 8
 	},
 /obj/structure/window/reinforced,
-/obj/machinery/door/window/brigdoor/northleft{
+/obj/machinery/door/window/secure/northleft{
 	name = "Weapons locker"
 	},
 /obj/effect/floor_decal/industrial/outline/red,

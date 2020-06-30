@@ -69,12 +69,12 @@
 	icon_state = "rwindow";
 	dir = 4
 	},
-/obj/machinery/door/window/brigdoor/southleft,
+/obj/machinery/door/window/secure/southleft,
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/outpost/abandoned)
 "an" = (
 /obj/machinery/mech_recharger,
-/obj/machinery/door/window/brigdoor/southright,
+/obj/machinery/door/window/secure/southright,
 /obj/structure/window/reinforced{
 	dir = 8
 	},
@@ -211,7 +211,7 @@
 /turf/simulated/floor/tiled/freezer,
 /area/outpost/abandoned)
 "aP" = (
-/obj/machinery/door/window/brigdoor/northright,
+/obj/machinery/door/window/secure/northright,
 /obj/effect/decal/cleanable/blood,
 /turf/simulated/floor/tiled/freezer,
 /area/outpost/abandoned)
@@ -278,11 +278,11 @@
 /turf/simulated/floor/tiled/white,
 /area/outpost/abandoned)
 "ba" = (
-/obj/machinery/door/window/brigdoor/northleft,
+/obj/machinery/door/window/secure/northleft,
 /turf/simulated/floor/tiled/freezer,
 /area/outpost/abandoned)
 "bb" = (
-/obj/machinery/door/window/brigdoor/northright,
+/obj/machinery/door/window/secure/northright,
 /turf/simulated/floor/tiled/freezer,
 /area/outpost/abandoned)
 "bc" = (

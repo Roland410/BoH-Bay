@@ -85,7 +85,7 @@
 "au" = (
 /obj/machinery/door/firedoor,
 /obj/structure/table/steel_reinforced,
-/obj/machinery/door/window/brigdoor/northleft{
+/obj/machinery/door/window/secure/northleft{
 	dir = 2;
 	name = "Deck Chief"
 	},
@@ -105,7 +105,7 @@
 /area/shuttle/escape_pod2/station)
 "ax" = (
 /obj/structure/table/reinforced,
-/obj/machinery/door/window/brigdoor/southright{
+/obj/machinery/door/window/secure/southright{
 	dir = 8;
 	name = "Supply Desk"
 	},
@@ -119,7 +119,7 @@
 /area/quartermaster/office)
 "ay" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/window/brigdoor/northleft{
+/obj/machinery/door/window/secure/northleft{
 	dir = 4;
 	name = "Security Checkpoint"
 	},
